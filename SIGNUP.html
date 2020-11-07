@@ -1,0 +1,111 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+   
+     
+    input[type=text],
+    input[type=password] {
+        width: 100%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        display: inline-block;
+        border: 2px solid #ccc;
+        box-sizing: border-box;
+    }
+    
+     
+    button {
+        background-color:green;
+        color: white;
+        padding: 15px 20px;
+        margin: 8px 0;
+        cursor: pointer;
+        width: 100%;
+    }
+   
+     
+    .cancelbtn {
+        padding: 15px 20px;
+        background-color:black;
+    }
+   
+     
+    .cancelbtn,
+    .signupbtn {
+        float: left;
+        width: 50%;
+    }
+  
+     
+    .container {
+        padding: 16px;
+		background-color:LightGrey;
+    }
+
+     
+    .clearfix::after {
+        content: "";
+        clear: both;
+        display: table;
+    }
+  
+     
+    @media screen and (max-width: 300px) {
+        .cancelbtn,
+        .signupbtn {
+            width: 100%;
+        }
+    }
+	.h11{
+	font-size:40px;
+	padding:10px 0px 10px 0px;
+	background-image:url('Restaurant.jpg');
+	font-family:Arial
+Verdana;
+color:Tomato;
+text-weight:normal;
+  text-shadow: 2px 2px ;
+  
+	text-align:center;}
+	
+	
+	
+</style>
+ </head>
+
+<body>
+ <div class="h11">
+    <h1>Sign-Up </h1>
+    </div>
+    <form action="/action_page.php" style="border:1px solid #ccc">
+        <div class="container">
+            <label><b>Username or Email-Id</b></label>
+            <input type="text" placeholder="Enter Email" name="email" required>
+ 
+            <label><b>Password</b></label>
+            <input type="password" placeholder="Enter Password" name="psw" required>
+ 
+            <label><b>Repeat Password</b></label>
+            <input type="password" placeholder="Repeat Password" name="psw-repeat" required>
+           
+
+ <input type="checkbox" checked="checked"> Remember me
+            <p>To create an account you have to agree our <a href="#">Terms & Privacy</a>.</p>
+ 
+            <div class="clearfix">
+			<button type="submit" class="signupbtn" onclick="myFunction()">Sign Up</button>
+                <button type="button" class="cancelbtn">Cancel</button>
+                
+            </div>
+        </div>
+    </form>
+ <script>
+function myFunction() {
+  alert("Welcome To 'Say Cheese Pizza'!!");
+}
+</script>
+</body>
+ 
+</html>
