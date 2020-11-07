@@ -1,2 +1,5 @@
 # Online-Pizza-Delivery-Website
-A front-end website of online pizza delivery made up of HTML,CSS,BOOTSTRAP &amp; JAVSCRIPT.
+A front-end website of online pizza delivery made up of HTML,CSS,BOOTSTRAP &amp; JAVSCRIPT. 
+Online Ordering System is a technique that allow customer to order their favorite food online via the internet by using a web browser that installed in their respective computer or smart phone. Implementing this system can help fast food industry to solve the problem that they face while using the traditional food ordering processes. My web project is  about  the “Online Pizza Delivery”.My website greatly simplifies the pizza ordering process for both customer and restaurant compare to the past. The customer can place an order everywhere and anywhere whenever internet connection is available for them.They should login to the site to avail discounts and many more offers.Customers  can access to the website and choose the pizza that they prefer from the online menu display then customers have to choose whether the pizza is delivered to them or they want to put it in cart and the payment method will be upon delivered or pick up and lastly it will show all the order details to the customer for double checking and also offers will be shown to them time to time.The customer can also 
+Contact us and give their valuable feedback.
+
